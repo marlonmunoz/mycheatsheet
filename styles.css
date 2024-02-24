@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Protest Revolution';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/protestrevolution/v2/11hcGofZ0kXBbxQXFB7MJsjtqnVw6Z2c9_gy.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+body {
+    background-color: black;
+}
+
+.title h1 {
+    color: black;
+    text-align: center;
+    background-color: gainsboro;
+    font-family: 'Protest Revolution';
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 70px;
+}
+
+h1 {
+    text-shadow: 1px 1px red;
+    font-family: 'Protest Revolution';
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    color: wheat;
+    text-align: center;
+}
+/* Navigation */
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    text-transform: uppercase;
+    padding: 30px 20px;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a.blue {
+    color:blue;
+}
+
+/* Article */
+
+.definition {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 120px;
+}
+
+/* Table  */
+
+.table-title {
+    color: gainsboro;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+/* .table-width {
+    width: 100%;
+} */
+
+.thead {
+    color: whitesmoke;
+}
+
+.row-head {
+    color: black;
+    background-color: gainsboro;
+}
+
+.row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+
+.bold-color-code {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+th,td {
+    font-size: 18px;
+}
+
+.sword {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
